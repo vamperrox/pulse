@@ -1,0 +1,144 @@
+body{
+	background:#EEEEEE;	
+	font-family: arial;
+	font-size: 16px;
+}
+footer{
+	background: #22BCE0;
+	text-align: center;
+	color: white;
+	padding: 1em;
+}
+
+footer p:first-child{
+	margin-bottom: 0;
+}
+
+footer p:last-child{
+	margin-top: 0;
+}
+footer p:last-child:before{
+	content: "-";
+}
+footer p:last-child:after{
+	content: "-"
+}
+header{
+	background: #343b54;
+	color: white;
+	border: 1px solid red;
+	position: relative;
+}
+header figure{
+	float: left;
+}
+header h1{
+	font-size: 18px;
+	font-weight: normal;
+	margin:0.2em 70px 0 0;
+}
+header #logo img{
+	width: 52px;
+	border-radius: 50%;
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+}
+header #avatar{
+	margin: 0.5em 0.5em 0 0;
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+header #avatar img{
+	width: 55px;
+	border-radius: 50%;
+
+}
+a{
+	background:#22BCE0;
+}
+ 
+ nav{
+ 	background:#808BCA3;
+ 	padding: 0 0.5em;
+ 	position: relative;
+ 	
+ }
+
+ nav ul{
+ 	list-style: none;
+ 	margin: 0;
+ 	padding:0;
+ }
+
+ nav ul #publicar{
+
+ 	position: absolute;
+ 	top: -0.3em;
+ 	right: 0;
+ }
+ nav ul #publicar a{
+ 	background: #22BCE0;
+ 	padding: 0.8em 0.5em;
+ 	border-radius: 5px;
+ 	text-align: none;
+ 	font-style: italic;
+ 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+ 	box-shadow: rgba(0,0,0,0.5) 2px 2px 20px;
+
+ }
+
+ nav ul li{
+ 	display: inline-block;
+ 	margin: 0 1em 0 0;
+ }
+
+ nav ul li a{
+ 	color: white;
+ 	display: block;
+ 	padding: 0.5em 0;
+ }
+
+#contenido{
+	margin: 1em;
+}
+
+#contenido .item{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	overflow: hidden;
+}
+#contenido .item .autor_item{
+	color: #AAA;
+}
+#contenido .item .datos_item{
+	text-align: right;	
+	margin-top: 1em;
+}
+#contenido .item .datos_item .tag{
+	background: #F4502A;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.2em;
+	border-radius: 0.5em;
+	float: left;
+}
+#contenido .item .imagen_item{
+	float: left;
+	margin:0 1em 0 0 ;
+}
+
+#contenido .item .imagen_item img{
+	width: 96px;
+	
+}
+#contenido .item .titulo_item{
+	font-size: 2em;
+	font-style: italic;
+}
+
+#contenido .item .titulo_item a{
+	color: #4444;
+	text-decoration: none;
+}
